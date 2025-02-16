@@ -3,18 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>unk-pn</title>
+    <title>unk-pn portfolio</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
 </head>
 <body>
-    <!-- Code will be here -->
-    <div class="div">
-        <p class="p">Скоро здесь будет портфолио.</p>
-    </div>
+    
+    <!--
+        #SIDEBAR 
+     -->
 
-    <div class="div">
-        <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjd5enI3ZW12eXphbGRjNWVlZ3J3ODNoM3Jwb2tka3VneTV1ZWdwdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HzPtbOKyBoBFsK4hyc/giphy.gif" alt="gif">
-    </div>
+     <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+            <figure class="avatar-box">
+                <img src="sources/images/my-avatar.jpeg" alt="My avatar" width="80">
+            </figure>
+
+            <div class="info-content">
+                <h1 class="name" title="unk-pn">unk-pn</h1>
+
+                <p class="title">Начинающий веб разработчик</p>
+            </div>
+
+            <button class="more-info-btn" data-sidebar-btn>
+                <span>Показать контакты</span>
+
+                <img src="sources/svg-files/icon-arrow-down.svg" alt="arrow down">
+            </button>
+        </div>
+
+        <div class="sidebar-info-more">
+            <div class="separator"></div>
+            <ul class="contacts-list">
+                <li class="contact-item">
+                    <div class="icon-box">
+                        <img src="sources/svg-files/icon-mail.svg" alt="Mail icon" width="20">
+                    </div>
+                    <div class="contact-info">
+                        <p class="contact-title">Почта</p>
+                        <a href="mailto:your_email@example.com" class="contact-link">your_email@example.com</a>
+                    </div>
+                </li>
+
+                <li class="contact-item">
+                    <div class="icon-box">
+                        <img src="sources/svg-files/icon-phone.svg" alt="Phone icon" width="20">
+                    </div>
+                    <div class="contact-info">
+                        <p class="contact-title">Номер телефона</p>
+                        <a href="tel:+79818970353" class="contact-link">+7 (981) 897-03-53</a>
+                    </div>
+                </li>
+
+                <li class="contact-item">
+                    <div class="icon-box">
+                        <img src="sources/svg-files/icon-github.svg" alt="Github icon" width="20">
+                    </div>
+                    <div class="contact-info">
+                        <p class="contact-title">Github</p>
+                        <a href="https://github.com/unk-pn" class="contact-link" target="_blank">unk-pn</a>
+                
+
+                <li class="contact-item">
+                    <div class="icon-box">
+                        <img src="sources/svg-files/icon-location.svg" alt="Location icon" width="20">
+                    </div>
+                    <div class="contact-info">
+                        <p class="contact-title">Местоположение</p>
+                        <address>г. Санкт-Петербург</address>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="separator"></div>
+
+            <ul class="social-list">
+                <li class="social-item">
+                    <a href="https://t.me/unk_pn" class="social-link" target="_blank">
+                        <img src="sources/svg-files/icon-plane.svg" alt="Paper plane icon" width="20">
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+     </aside>
+
 
 </body>
 </html>
